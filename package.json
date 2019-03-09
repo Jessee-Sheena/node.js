@@ -1,7 +1,7 @@
 {
   "name": "assignment09",
   "version": "1.0.0",
-  "description": "\"app to calculate postal rates\"",
+  "description": "app to calculate postal rates",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
