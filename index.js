@@ -12,10 +12,11 @@ express()
 		var postType = req.query.postType;
 
 		var rate = calculateRate(weight, postType)
+		var t = getType(postType);
 		console.log(rate);
 
 		var param = {
-			postType: postType,
+			t: t,
 			weight: weight,
 			rate: rate
 			
@@ -114,6 +115,23 @@ function calculateRate(weight, type) {
 			else if (weight == 13) {
 				return 5.71;
 			}
+			break;
+	}
+}
+function getType( type) {
+	switch (type) {
+		case "stamped":
+			return "Letters (stamped)";
+			break;
+		case "metered":
+			return "Letters(metered)";
+			break;
+		case "flats":
+			return "Large Envelopes(flats)";
+
+			break;
+		case "package":
+			return "First - Class Package Service—Retail";
 			break;
 	}
 }
