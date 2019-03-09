@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <% include ../partials/header.ejs %>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+   
 </head>
 
 <body>
-
-  <% include ../partials/nav.ejs %>
-
-<div class="jumbotron text-center">
-  <div class="container">
-   
-  </div>
-</div>
-
-
+    <div class="container">
+        <form action="/getRate" method="post">
+            <input type="text" name="wieght">
+            <select name="postType">
+                <option value="stamped">Letters (stamped)</option>
+                <option value="metered">Letters (metered)</option>
+                <option value="flats">Large Envelopes (flats)</option>
+                <option value="package">First-Class Package Service—Retail</option>
+            </select>
+            <input type="submit" name="submit" value="Submit">
+            
+        </form>
+        
+    </div>
 
 </body>
+
 </html>

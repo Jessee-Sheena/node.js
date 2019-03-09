@@ -1,31 +1,26 @@
 {
   "name": "assignment09",
-  "version": "0.3.0",
-  "description": "A sample Node.js app using Express 4",
-  "engines": {
-    "node": "10.x"
-  },
+  "version": "1.0.0",
+  "description": "\"app to calculate postal rates\"",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "node test.js"
-  },
-  "dependencies": {
-    "ejs": "^2.5.6",
-    "express": "^4.15.2"
-  },
-  "devDependencies": {
-    "request": "^2.81.0",
-    "tape": "^4.7.0"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Jessee-Sheena/node.js.git"
+    "url": "git+https://github.com/Jessee-Sheena/node.js.git"
   },
   "keywords": [
-    "node",
     "heroku",
-    "express"
+    "node"
   ],
-  "license": "MIT"
+  "author": "Sheena Jessee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jessee-Sheena/node.js/issues"
+  },
+  "homepage": "https://github.com/Jessee-Sheena/node.js#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
