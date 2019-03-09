@@ -1,0 +1,8 @@
+{
+  "name": "Postal Rate Calculator",
+  "description": "Ann app that caluclates the shipping rate",
+  "repository": "https://github.com/Jessee-Sheena/node.js.git",
+  "logo": "",
+  "keywords": [ "node", "express", "heroku" ],
+  "image": "heroku/nodejs"
+}
